@@ -1,0 +1,334 @@
+/*setting geneeral*/
+a{
+  color:#0069ff;
+}
+/*setting header*/
+header{
+  width:100%;
+  position: fixed;
+  top:0;
+  background-color:white;
+  z-index:1;
+}
+.header-top{
+  line-height:40px;
+
+}
+.header-top p a{
+  text-decoration:none;
+  color:black;
+  opacity:0.7;
+}
+.header-top .menu-sx p a:first-child:hover{
+  color:blue;
+}
+/*setting section 1*/
+.sfondo{
+  background-image:url("img/sfondosection1.jpg");
+  background-size:cover;
+}
+.section-one{
+  padding:10% 0;
+}
+.title{
+  color:white;
+  text-align:left;
+}
+.title h2{
+  margin:70px 0 25px 0;
+  font-size:40px;
+  font-weight:700;
+}
+.title p{
+  margin:0 0 30px 0;
+  font-size:25px;
+}
+
+.form-group{
+  background-color:white;
+  border-radius:5px;
+  padding:50px 0 ;
+}
+.form-group form{
+  margin-top:30px;
+  line-height:30px;
+  font-size:20px;
+}
+.form-group h2{
+  font-size:40px;
+  font-weight:700;
+}
+.form-group form button{
+  border-radius:5px;
+  border-color:white;
+  padding:5px;
+  color:black;
+  line-height:40px;
+  background-color:white;
+  font-size:20px;
+}
+
+.Sign-in a{
+  text-decoration: none;
+  color:black;
+}
+.form-group input{
+  width:100%;
+  line-height:40px;
+  margin-bottom:30px;
+}
+.form-group .Account{
+  margin:20px 0;
+}
+.form-group .terms{
+  margin-top:40px;
+}
+.form-group form button.Account{
+  background-color:#15cd72;
+  border-color:#15cd72;
+  color:white;
+}
+
+/*setting section 2*/
+.container.icon{
+  padding:60px 0;
+}
+.icon .col-lg-12 a{
+  text-decoration:none;
+  font-size:20px;
+}
+.icon .col-lg-12.link{
+  padding:30px 0;
+}
+.icon img{
+  background-size:cover;
+  width: 100%;
+  padding-left:15%;
+  margin-bottom:40px;
+  margin-top:20px;
+}
+/*setting section3*/
+.container.deploy{
+  padding-bottom:50px;
+}
+.container.deploy h2{
+  color:#031b4e;
+  font-size:40px;
+  font-weight:700;
+  padding:50px 0 25px 0;
+}
+.container.deploy ul{
+  padding:50px;
+  font-size:20px;
+}
+li{
+  list-style: none;
+  line-height:40px;
+}
+.container.deploy ul li a{
+  text-decoration: none;
+  color:black;
+  opacity:0.5;
+}
+.container.deploy ul li a.change-color{
+  opacity:1;
+}
+.container.deploy p{
+  color:black;
+  opacity:0.7;
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:30px;
+
+}
+
+/*section4*/
+.designed{
+  padding:50px 0;
+  background-color:#f3f5f9;
+}
+.designed h2{
+  color:#031b4e;
+  font-size:40px;
+  font-weight:700;
+  padding:50px 0 10px 0 ;
+}
+.designed p{
+  color:black;
+  opacity:0.7;
+  font-size:25px;
+  padding-top:10px;
+  padding-bottom:70px;
+}
+.designed img{
+  background-size:cover;
+  width:100%;
+  padding-bottom:30px;
+}
+
+/*section 5 business*/
+.container.business{
+  padding-bottom:100px;
+}
+.container.business h2{
+  color:#031b4e;
+  font-size:40px;
+  font-weight:700;
+  padding:100px 0 50px 0;
+}
+.container.business h3{
+  color:#031b4e;
+  font-size:20px;
+  padding-bottom:20px;
+}
+.container.business p{
+  opacity:0.7;
+  font-size:18px;
+  padding-bottom:20px;
+  padding-right:50px;
+}
+.container.business a{
+  padding-bottom:80px;
+  text-decoration: none;
+  font-size:20px;
+}
+@media all and (max-width:768px){
+  .container.business p{
+    padding-right:0;
+  }
+}
+
+/*section6*/
+.container.regions{
+  background-image: url("img/sfondosection6.jpg");
+  background-size:cover;
+}
+.container.regions h2{
+  color:white;
+  font-size:40px;
+  font-weight:700;
+  padding:100px 0 80px 0;
+}
+.container.regions h4{
+  color:white;
+}
+.container.regions p{
+  color:gray;
+}
+.container.regions a{
+  text-decoration: none;
+  color:#00d7d2;
+}
+.container.regions .left{
+  line-height:50px;
+  padding-bottom:150px;
+}
+.container.regions .left.right{
+  padding-left:20px;
+}
+@media all and (max-width: 768px){
+  .container.regions .left{
+    padding-bottom:20px;
+  }
+  .container.regions h2{
+    color:white;
+    font-size:25px;
+    font-weight:700;
+    padding:70px;
+  }
+  .container.regions .left.right{
+    padding-left:0;
+  }
+}
+
+/*section 7*/
+.container.development-teams {
+background-color:#f3f5f9;
+padding-bottom:150px;
+}
+.slide{
+background-color:white;
+padding-bottom:100px;
+}
+.container.development-teams h2{
+padding-top:80px;
+padding-bottom:20px;
+font-size:40px;
+color:#031b4e;
+}
+.container.development-teams img{
+  padding:30px 0;
+  background-size:cover;
+
+}
+.container.development-teams p{
+padding:20px 0;
+margin:0 20px;
+opacity:0.7;
+font-size:25px;
+}
+.container.development-teams a{
+ text-decoration: none;
+ font-size:18px;
+}
+.container.development-teams .set-p p{
+  padding: 0;
+  font-size:18px;
+}
+.container.development-teams .set-p{
+  margin-bottom:30px;
+}
+
+/*section8*/
+.create-account{
+  padding:70px 0;
+  background-image:url("img/sfondosection1.jpg");
+  background-size:cover;
+  width:100%;
+}
+.create-account h2{
+  color:white;
+  font-size:40px;
+  font-weight:700;
+  margin-bottom:40px;
+}
+.registrazione{
+  text-decoration:none;
+  border-radius: 5px;
+  border-color:white;
+  font-size:18px;
+  font-weight:200;
+  background-color:white;
+  padding:15px;
+}
+.create-account .registrazione:hover{
+  opacity:0.7;
+}
+/*footer*/
+.container.footer{
+  padding:100px 0;
+  background-color:rgb(1, 14, 40);
+}
+.copyright{
+  line-height:50px;
+}
+.copyright p{
+  color:white;
+  opacity:0.5;
+}
+.container.footer .link{
+  line-height:30px;
+}
+.container.footer .link h4{
+  color:white;
+  padding-right:20px;
+}
+.container.footer .link p a{
+  text-decoration: none;
+  color:white;
+  opacity:0.5;
+  padding-right:20px;
+}
+.container.footer .link p a:hover{
+  opacity:1;
+}
