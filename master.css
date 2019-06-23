@@ -22,13 +22,88 @@ header{
 .header-top .menu-sx p a:first-child:hover{
   color:blue;
 }
+.cont-flex{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding :10px 20px;
+}
+header ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+header ul li{
+  list-style: none;
+  margin-left:20px;
+}
+header .menu a{
+  text-decoration:none;
+  color:black;
+}
+header .menu a:hover{
+  color:blue;
+}
+header .menu_log-in a{
+  border:solid 2px  blue;
+  border-radius:5px;
+  font-size:18px;
+  padding:10px 15px;
+  text-decoration: none;
+  color:blue;
+}
+header .menu_log-in a:hover{
+  background-color:blue;
+  color:white;
+}
+.menu_a_tendina{
+  display: none;
+}
+.menu_a_tendina_items{
+  display:none;
+}
+.menu_a_tendina:hover .menu_a_tendina_items{
+  display:block;
+}
+.menu_a_tendina:hover .menu_hamburger{
+  display:none;
+}
+.menu_hamburger{
+  border:solid 2px  blue;
+  border-radius:5px;
+  font-size:18px;
+  padding:10px 15px;
+  background-color:blue;
+  color:white;
+}
+.cont_flex_in{
+
+  display:flex;
+  flex-direction: column;
+
+}
+@media all and (max-width:1000px) {
+  .menu{
+    display:none;
+  }
+  .menu_log-in{
+    display:none;
+  }
+  .menu_a_tendina{
+    display: block;
+  }
+  .container.header-top{
+    display:none;
+  }
+}
+
 /*setting section 1*/
 .sfondo{
   background-image:url("img/sfondosection1.jpg");
   background-size:cover;
 }
 .section-one{
-  padding:10% 0;
+  padding:250px 0;
 }
 .title{
   color:white;
@@ -161,8 +236,6 @@ li{
   padding-bottom:70px;
 }
 .designed img{
-  background-size:cover;
-  width:100%;
   padding-bottom:30px;
 }
 
@@ -197,7 +270,6 @@ li{
     padding-right:0;
   }
 }
-
 /*section6*/
 .container.regions{
   background-image: url("img/sfondosection6.jpg");
